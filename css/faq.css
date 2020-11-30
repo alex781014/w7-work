@@ -1,0 +1,61 @@
+.faq-banner {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/qa.png?raw=true") no-repeat center/cover;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 80px;
+}
+
+.faq-banner .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.faq-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1110px;
+}
+
+.faq-header li {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.faq-menu h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.content-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content-ans {
+  max-width: 920px;
+  margin-bottom: 40px;
+  margin-left: 95px;
+  font-weight: bold;
+}
+
+.faq-list ul li:last-child .content-ans {
+  padding-bottom: 264px;
+}
+
+.content-ans br:nth-child(2) {
+  display: none;
+}
+
+.content-ans br:nth-child(3) {
+  display: none;
+}
+/*# sourceMappingURL=faq.css.map */

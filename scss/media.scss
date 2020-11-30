@@ -1,0 +1,600 @@
+@media (max-width:768px) {
+    .header .logo {
+        width: 40%;
+    }
+
+    .header ul {
+        width: 60%;
+
+        li {
+            margin-right: 20px;
+
+
+            a {
+                width: 90px;
+                margin-right: 0;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .banner .container {
+        margin-right: 39px;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 48px;
+        }
+    }
+
+    .service ul li {
+        width: 50%;
+        padding: 0 86px;
+
+        p {
+            padding-bottom: 80px;
+        }
+    }
+
+    .Mirror-frame {
+        .Mirror-icon {
+            width: 32px;
+        }
+
+        span {
+            font-size: 28px;
+        }
+
+        .ro-Mirror {
+            flex-direction: row;
+        }
+    }
+
+    .joint-design {
+        height: 437px;
+
+        h2 {
+            padding: 32px 0;
+        }
+
+        .container {
+            margin-left: 39px;
+        }
+
+
+
+        .design-card {
+            height: 280px;
+
+            h3 {
+                font-size: 36px;
+            }
+        }
+
+
+        .design-card:nth-child(2) {
+            height: 280px;
+            margin-right: 30px;
+        }
+    }
+
+    .customer-recommen {
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li {
+            width: 40%;
+            margin: 30px;
+        }
+    }
+
+    .contact {
+        h2 {
+            font-size: 32px;
+        }
+
+        .contact-form {
+            margin: 0 159px;
+
+            p {
+                font-size: 16px;
+            }
+
+            label {
+                font-size: 14px;
+            }
+
+            .opinion-submit {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    .footer {
+
+        .footer-wrap {
+            margin-left: 48px;
+            margin-right: 39px;
+        }
+
+        a {
+            padding: 0;
+        }
+
+
+
+        .footer-menu {
+
+
+            .footer-list li {
+                margin-right: 40px;
+                padding: 48px 0 0 0;
+                margin-bottom: 24px;
+            }
+
+            .footer-contact {
+                img {
+                    width: 24px;
+                }
+
+                li:first-child {
+                    margin-bottom: 0;
+                }
+
+                span {
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .footer-icon {
+            display: flex;
+
+
+            ul {
+                padding-top: 10px;
+
+                li {
+                    width: 32px;
+                }
+            }
+        }
+
+        .copyright {
+            margin-left: 48px;
+
+            img {
+                display: none;
+            }
+
+        }
+
+        .copyright-terms {
+            margin-right: 48px;
+        }
+
+    }
+
+    .faq-banner {
+        margin-bottom: 40px;
+    }
+
+    .faq-container {
+        margin-left: 39px;
+    }
+
+    .faq-header {
+        width: auto;
+        max-width: 1110px;
+
+        li {
+            font-size: 48px;
+            margin-right: 16px;
+
+        }
+    }
+
+    .content-ans {
+        margin-left: 60px;
+        margin-right: 39px;
+    }
+
+    .faq-list ul li:last-child .content-ans {
+        padding-bottom: 104px;
+        margin-bottom: 0;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+    .header {
+        padding: 0px;
+        flex-wrap: wrap;
+
+        .logo {
+            width: 50%;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+
+        ul {
+            flex-wrap: wrap;
+            width: 100%;
+
+            li {
+                margin: 0;
+                width: 50%;
+                border: 1px solid #ffffff;
+
+                a {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .banner {
+        background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true");
+
+        .container {
+            margin-right: 15px;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+        }
+
+    }
+
+    .service {
+        margin-bottom: 32px;
+
+        h2 {
+            padding-top: 32px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin: 0 69px;
+
+            li {
+                width: 100%;
+
+
+                P {
+                    padding-bottom: 40px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+
+    .Mirror-frame {
+        margin-bottom: 0;
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            line-height: 0;
+        }
+
+        .firpic::before {
+            content: "";
+            top: 55px;
+            bottom: 0;
+            right: 0;
+            left: 210px;
+            background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week3/icon-diamond-white.svg") no-repeat;
+            position: absolute;
+        }
+
+        .firpic::after {
+            content: "OPTICAL";
+            top: 55px;
+            bottom: 0;
+            right: 0;
+            left: 250px;
+            position: absolute;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .ro-Mirror::before {
+            content: "";
+            top: 55px;
+            bottom: 0;
+            right: 0;
+            left: 180px;
+            background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week3/icon-sun-white.svg") no-repeat;
+            position: absolute;
+        }
+
+        .ro-Mirror::after {
+            content: "SUNGLASSES";
+            top: 55px;
+            bottom: 0;
+            right: 0;
+            left: 220px;
+            position: absolute;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .thpic::before {
+            content: "";
+            top: 55px;
+            bottom: 0;
+            right: 0;
+            left: 180px;
+            background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week3/icon-thunder-white.svg") no-repeat;
+            position: absolute;
+        }
+
+        .thpic::after {
+            content: "FUNCTIONAL";
+            top: 55px;
+            bottom: 0;
+            right: 0;
+            left: 220px;
+            position: absolute;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .Mftxt {
+            display: none;
+        }
+    }
+
+    .joint-design {
+        height: 696px;
+        margin-bottom: 32px;
+
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .design-pic {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .design-card {
+                width: 348px;
+            }
+
+            .design-card:first-child {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .customer-recommen {
+        margin-bottom: 32px;
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            width: 345px;
+            margin: 0;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+
+            P {
+                line-height: 24px;
+            }
+
+        }
+    }
+
+    .contact {
+        h2 {
+            font-size: 20px;
+            padding: 32px 0 20px 0;
+        }
+
+        .contact-form {
+            p {
+                line-height: 24px;
+            }
+
+            input {
+                line-height: 36px;
+            }
+
+            .opinion-submit {
+                width: 165px;
+                padding: 8px 0;
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    .footer {
+        .footer-menu {
+            .footer-list {
+                display: none;
+            }
+
+            .footer-contact {
+                padding: 24px 0;
+
+                li {
+                    margin-bottom: 0;
+                    line-height: 30px;
+
+                    img {
+                        margin-right: 7px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .footer-icon {
+            li {
+                margin-top: 24px;
+                margin-right: 15px;
+            }
+        }
+
+        .footer-bwrap {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .copyright-terms {
+                ul {
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    li {
+                        margin-left: 48px;
+                    }
+
+                    li:first-child {
+                        margin-bottom: 7px;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            margin-bottom: 7px;
+        }
+
+        .footer-bwrap:after {
+            content: "";
+            position: absolute;
+            top: 50px;
+            right: 0;
+            bottom: 0;
+            background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true") no-repeat;
+            left: 457px;
+        }
+    }
+
+    .faq-banner {
+        margin-bottom: 24px;
+    }
+
+    .faq-container {
+        margin-left: 15px;
+    }
+
+
+    .faq-header {
+        width: auto;
+        max-width: 1110px;
+
+        li {
+            font-size: 48px;
+            margin-right: 16px;
+
+        }
+    }
+
+    .faq-menu {
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+    }
+
+    .content-title {
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .content-ans {
+        margin-bottom: 20px;
+        font-size: 14px;
+        margin-left: 15px;
+        font-weight: bold;
+        line-height: 21px;
+    }
+
+    .content-dn {
+        display: none;
+    }
+
+    .content-ans br:nth-child(2) {
+        display: block;
+    }
+
+    .content-ans br:nth-child(3) {
+        display: block;
+    }
+
+    .faq-list ul li:last-child .content-ans {
+        padding-bottom: 56px;
+        margin-bottom: 0;
+    }
+
+
+}
